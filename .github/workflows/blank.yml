@@ -19,3 +19,5 @@ jobs:
          run: echo Hello , Krunal !
        - name: Printing the date function
          run: date
+       - name: Checking the system information
+         run: cat /etc/os-release
