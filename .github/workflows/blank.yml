@@ -17,3 +17,5 @@ jobs:
    steps:
        - name: Workflow descritpion
          run: echo Hello , Krunal !
+       - name: Printing the date function
+         run: date
